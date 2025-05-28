@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border: 2px solid black;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 50px;
+  left: 100px;
+}
+
+.pink {
+  background-color: rgba(255, 105, 180, 0.6); /* pink with opacity */
+  top: 100px;
+  left: 150px;
+  color: white;
+  padding: 10px;
+}
