@@ -1,0 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font setup */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: #ff8800;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Section */
+section {
+    border-left: 4px solid orange;
+    border-right: 1px solid lightgray;
+    padding: 25px 40px;
+    margin: 10px 0;
+}
+
+section h2 {
+    color: #e44d00;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+section h2 i {
+    margin-right: 5px;
+}
+
+/* About */
+.hello {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e44d00;
+    font-family: Georgia, serif;
+    float: left;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.highlight {
+    color: #e44d00;
+    font-weight: bold;
+}
+
+/* Projects */
+#projects ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#projects li {
+    margin-bottom: 8px;
+}
+
+.muted {
+    color: #999;
+    font-weight: bold;
+}
+
+/* Contact */
+#contact p {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+#contact i {
+    color: #e44d00;
+    margin-right: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #e44d00;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
